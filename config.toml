@@ -22,15 +22,15 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Stanislav Vitko"
-intro = "intro data"
+#intro = "intro data"
 description = "Now @griddynamics."
 authorimage = "me_02.jpg"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
+description = "Stanislav Vitko"
+keywords = "minimalist,blog,goa,hugo,developer,devops,vitko,stas,stan"
 
 ## Social Accounts
 [params.social]
