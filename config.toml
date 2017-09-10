@@ -35,11 +35,11 @@ keywords = "minimalist,blog,goa,hugo,developer,devops,vitko,stas,stan"
 ## Social Accounts
 [params.social]
 github = "vistrcm"
-instagram = "vistrcm"
 linkedin = "vitkostanislav"
-twitter = "vistrcm"
-facebook = "vitko.stanislav"
-google = "vist.rcm"
+# instagram = "<username>"
+# twitter = "<username>"
+# facebook = "<username>"
+# google = "<username>"
 #stackoverflow = "<username>"
 #email = "you@example.com"
 
