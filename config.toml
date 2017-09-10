@@ -1,3 +1,67 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+## Basic Configuration
+
+baseurl = "http://stas.vitko.me/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Stanislav Vitko"
+title = "1001010101"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+#googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Stanislav Vitko"
+intro = "intro data"
+description = "Now @griddynamics."
+authorimage = "me_02.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "vistrcm"
+instagram = "vistrcm"
+linkedin = "vitkostanislav"
+twitter = "vistrcm"
+facebook = "vitko.stanislav"
+google = "vist.rcm"
+#stackoverflow = "<username>"
+#email = "you@example.com"
+
+## Extras
+#[params.extra]
+#copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+#poweredby = true
+#hightlightjs = true
+
+## Main Menu
+[[menu.main]]
+#     name = "blog"
+#     weight = 100
+#     identifier = "blog"
+#     url = "/blog/"
+#[[menu.main]]
+    # name = "about"
+    # identifier = "about"
+    # weight = 200
+    # url = "/about/"
+# [[menu.main]]
+#     name = "coderag"
+#     identifier = "coderag"
+#     weight = 300
+#     url = "/coderag/"
