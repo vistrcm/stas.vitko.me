@@ -30,7 +30,7 @@ dateformat = "Jan 2, 2006"
 ## Site Meta Settings
 [params.meta]
 description = "Stanislav Vitko"
-keywords = "minimalist,blog,goa,hugo,developer,devops,vitko,stas,stan"
+keywords = "vitko,stas,stan,stanislav"
 
 ## Social Accounts
 [params.social]
