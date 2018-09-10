@@ -1,4 +1,5 @@
 .DEFAULT_GOAL := hugo
+.PHONY: clean hugo publish
 
 clean:
 	rm -rf public
