@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "http://stas.vitko.me/"
+baseurl = "https://stas.vitko.me/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
