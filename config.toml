@@ -68,4 +68,4 @@ linkedin = "vitkostanislav"
 [[menu.main]]
       name = "gpg key"
       identifier = "gpg"
-      url = "https://pgp.mit.edu/pks/lookup?op=get&search=0xF6D36FE96E6B5CBF"
+      url = "stasvitko.gpg"
