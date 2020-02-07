@@ -69,3 +69,7 @@ linkedin = "vitkostanislav"
       name = "gpg key"
       identifier = "gpg"
       url = "stasvitko.gpg"
+[[menu.main]]
+      name = "Curriculum Vitae (aka CV)"
+      identifier = "cv"
+      url = "StanislavVitkoCV.pdf"
