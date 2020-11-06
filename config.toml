@@ -66,6 +66,6 @@ linkedin = "vitkostanislav"
 #     weight = 300
 #     url = "/coderag/"
 [[menu.main]]
-      name = "gpg key"
+      name = "gpg: 0x48F22A464791F054"
       identifier = "gpg"
       url = "stasvitko.gpg"
