@@ -69,3 +69,8 @@ linkedin = "vitkostanislav"
       name = "gpg: 0x48F22A464791F054"
       identifier = "gpg"
       url = "stasvitko.gpg"
+
+[[menu.main]]
+      name = "posts"
+      identifier = "posts"
+      url = "/posts/"
