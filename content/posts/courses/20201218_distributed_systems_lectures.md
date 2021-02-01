@@ -2,6 +2,9 @@
 title: "Distributed Systems by Martin Kleppman"
 date: 2020-12-18T18:57:16-08:00
 draft: false
+tags:
+  - "course"
+  - "distributed systems"
 ---
 
 I recommend the lecture series ["Distributed Systems"](https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB) given by [Martin Kleppmann](https://martin.kleppmann.com) for engineers interested in the distributed systems.
