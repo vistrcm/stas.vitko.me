@@ -1,7 +1,7 @@
 ---
 title: "Clojure for the Brave and True by Daniel Higginbotham"
 date: 2021-01-31T11:57:28-08:00
-draft: true
+draft: false
 tags:
   - "book"
   - "clojure"
