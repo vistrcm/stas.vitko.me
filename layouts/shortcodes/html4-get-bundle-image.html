@@ -1,0 +1,49 @@
+{{/*
+
+  USAGE:
+  
+  {{< html4-get-bundle-image "filename" "alt text" "width" "link" >}}
+  
+  NOTE: parameters 1 & 2 required, parameters 3 & 4 optional
+  
+  EXAMPLE 1:
+  {{< html4-get-bundle-image "gologo.png" "Go Logo" >}}
+  
+  EXAMPLE 2:
+  {{< html4-get-bundle-image "gologo.png" "Go Logo" "50%" >}}
+  
+  EXAMPLE 3:
+  {{< html4-get-bundle-image "gologo.png" "Go Logo" "25%" "https://blog.golang.org/go-brand" >}}
+  
+  PATH: layouts/shortcodes/html4-get-bundle-image.html
+  
+  PURPOSE: get image located in current bundle
+  
+  */}}
+  
+  
+ <center>
+
+ 
+  {{ $filename := .Get 0 }}
+  {{ $alt := .Get 1 }}
+  {{ $width := .Get 2 }}
+  {{ $link := .Get 3 }}
+  
+  {{ $file := .Page.Resources.GetMatch $filename }}
+  
+  
+  {{ with $link }}
+  <a href="{{ . }}">
+  {{ end }}
+
+  <img
+    src="{{ $file.RelPermalink }}"
+    alt="{{ $alt }}"
+    {{ with $width }} width="{{ . }}" {{ end }}
+  >
+  {{ if $link }}
+  </a>
+  {{ end }}
+
+</center> 
