@@ -1,7 +1,7 @@
 ---
 title: "Justice by Michael Sandel"
 date: 2021-03-03T18:39:15-08:00
-draft: true
+draft: false
 tags:
   - "course"
   - "philosophy"
