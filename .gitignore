@@ -2,3 +2,5 @@
 
 # generated files
 public/
+
+.hugo_build.lock
