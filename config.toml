@@ -23,7 +23,7 @@ enableRobotsTXT = true
 [params]
 author = "Stanislav Vitko"
 #intro = "intro data"
-description = "Now @polysign."
+description = "Now @ripple."
 authorimage = "me_02.jpg"
 dateformat = "Jan 2, 2006"
 
