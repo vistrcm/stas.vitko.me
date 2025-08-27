@@ -1,0 +1,71 @@
+// SankeyMATIC diagram inputs - Saved: 8/27/2025, 4:02:43 PM
+// https://sankeymatic.com/build/
+
+// === Nodes and Flows ===
+
+equipment [2036.34] direct
+ground school [350.00] direct
+airplane rental [25001.40] direct
+CFI [23528.51] direct
+fees [1731.84] direct
+demo flight [303.00] direct
+books/maps [252.61] direct
+medical exam [160.00] direct
+airport tax [72.62] direct
+
+direct [53436.32] total
+indirect [8652.63] total
+
+// === Settings ===
+
+size w 2400
+ h 1600
+margin l 12
+ r 12
+ t 18
+ b 20
+bg color #ffffff
+ transparent Y
+node w 12
+ h 50
+ spacing 75
+ border 0
+ theme a
+ color #888888
+ opacity 1
+flow curvature 0.5
+ inheritfrom outside-in
+ color #999999
+ opacity 0.45
+layout order exact
+ justifyorigins N
+ justifyends N
+ reversegraph N
+ attachincompletesto nearest
+labels color #000000
+ hide N
+ highlight 0.7
+ fontface sans-serif
+ linespacing 0.2
+ relativesize 101
+ magnify 100
+labelname appears Y
+ size 26
+ weight 400
+labelvalue appears Y
+ fullprecision Y
+ position after
+ weight 400
+labelposition autoalign 0
+ scheme per_stage
+ first before
+ breakpoint 4
+value format ',.'
+ prefix '$'
+ suffix ''
+themeoffset a 0
+ b 0
+ c 0
+ d 0
+meta mentionsankeymatic N
+ listimbalances Y
